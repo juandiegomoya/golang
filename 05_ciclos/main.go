@@ -32,7 +32,7 @@ import "fmt"
 // 	}
 // }
 
-// el Printf sedigo %d pone la variable en el texto para asi formarlo
+// el Printf se digo %d pone la variable en el texto para asi formarlo
 // func main() {
 // 	var num = 0
 // 	for num < 10 {

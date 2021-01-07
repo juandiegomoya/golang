@@ -7,12 +7,12 @@ import (
 	us "./user"
 )
 
-type juan struct {
+type pepe struct {
 	us.User
 }
 
 func main() {
-	u := new(juan)
+	u := new(pepe)
 	u.altaUsuario(1, "Mariana", time.Now(), true)
 	fmt.Println(u.User)
 }

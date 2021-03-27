@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+//
 func main() {
-	fmt.Println("Hola muundo estoy aprendiendo golang")
+	nb , err := fmt.Println("hola mundo" + "")
+	fmt.Println(nb)
+	fmt.Println(err)
 }
+

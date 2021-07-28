@@ -13,4 +13,5 @@ func main() {
 
 	fmt.Println("Ingrese el numero 2")
 	fmt.Scanf("%d", &num2)
+	fmt.Printf("Los numeros ingresados son: %d y %d\n", num1, num2)
 }

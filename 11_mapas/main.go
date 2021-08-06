@@ -19,6 +19,7 @@ func main() {
 		"Venezuela": 40,
 		"Ecuador":   50}
 
+	/*Para agregar un nuevo elemento */
 	paises["Bracil"] = 34
 	/*para poder eliminar de un mapa*/
 	// delete(paises, "Argentina")

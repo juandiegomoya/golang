@@ -3,19 +3,19 @@ package main
 import "fmt"
 
 type person struct {
-	nombre string
-	apellido string
-	edad int
+	name string
+	last_name string
+	year int
 }
 
 func main()  {
 
 	x := person{
-		nombre: "Juan",
-		apellido: "Moya",
-		edad: 30,
+		name: "Juan",
+		last_name: "Moya",
+		year: 30,
 	}
-	fmt.Println(x.nombre, x.apellido, x.edad)
+	fmt.Println(x.name, x.last_name, x.year)
 
 
 }

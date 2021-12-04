@@ -2,7 +2,7 @@ package user
 
 import "time"
 
-//User is a new struc
+//User is a new struct
 type User struct {
 	ID     int
 	Name   string
@@ -10,7 +10,7 @@ type User struct {
 	Status bool
 }
 
-func (aqui *User) altaUsuario(id int, name string, date time.Time, status bool) {
+func (aqui *User) AltaUsuario(id int, name string, date time.Time, status bool) {
 	aqui.ID = id
 	aqui.Name = name
 	aqui.Date = date

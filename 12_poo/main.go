@@ -13,6 +13,6 @@ type pepe struct {
 
 func main() {
 	u := new(pepe)
-	u.altaUsuario(1, "Mariana", time.Now(), true)
+	u.AltaUsuario(1, "Mariana", time.Now(), true)
 	fmt.Println(u.User)
 }

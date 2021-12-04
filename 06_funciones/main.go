@@ -8,6 +8,7 @@ func main() {
 	fmt.Println(dinamico(12, 46, 45, 45, 45))
 	fmt.Println(dinamico(12))
 	fmt.Println(dinamico(10, 10))
+        helloWorld("Hello Juan.....")
 }
 
 // func numero1(uno int) (h int) {
@@ -31,4 +32,8 @@ func dinamico(num ...int) int {
 		fmt.Printf("\n Item %d \n", Item)
 	}
 	return total
+}
+
+func helloWorld(message string) {
+    fmt.Println(message)
 }
